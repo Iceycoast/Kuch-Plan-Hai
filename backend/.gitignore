@@ -56,9 +56,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Alembic
-alembic/versions/*.py
-!alembic/versions/.gitkeep
+
 
 # Testing
 .pytest_cache/
