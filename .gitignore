@@ -1,3 +1,41 @@
-venv/
+# Project-wide ignores
+
+# Environment variables
 .env
-__pycache__
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node.js (if any root-level dependencies)
+node_modules/
+package-lock.json
+
+# Python (basic - detailed ones in backend/.gitignore)
+__pycache__/
+*.pyc
